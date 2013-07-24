@@ -13,7 +13,7 @@ You can also try the [online version](http://oin.name/1eurofilter/) of the 1€ 
 
 ## Download
 
-* [SignalFilter.zip v0.1b1](http://s176381904.onlinehome.fr/processing/MoveLib/download/SignalFilter.zip)
+* [SignalFilter.zip](http://s176381904.onlinehome.fr/processing/SignalFilter/download/SignalFilter.zip)
 
 ## Installation
 
