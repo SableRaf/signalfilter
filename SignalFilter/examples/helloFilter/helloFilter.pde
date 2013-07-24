@@ -18,7 +18,6 @@ void setup() {
   // Initialize the filter
      myFilter = new SignalFilter(this);
   // -----------------------------------------------------
-
   
 }
 
