@@ -4,7 +4,7 @@ A [Processing](http://processing.org/) API for signal filtering by [Raphaël de 
 
 Signal Filter provides a convenient way to get rid of the noise in noisy signals (like blob tracking coordinates for example) with only two easy to tweak parameters.
 
-Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). It uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/) from [Université de Toulouse](http://www.univ-toulouse.fr/).
+Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). It uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/).
 
 *Note: Signal Filter is considered beta and should not be used for production. Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
