@@ -53,7 +53,6 @@ void setup() {
   // Initialize the filter
      myFilter = new SignalFilter(this);
   // -----------------------------------------------------
-
   
 }
 
@@ -84,6 +83,8 @@ void draw()
 
 
 ## Examples
+
+* [helloFilter](https://github.com/SableRaf/signalfilter/tree/master/SignalFilter/examples/helloFilter/helloFilter.pde)
 
 * [basicFilter](https://github.com/SableRaf/signalfilter/tree/master/SignalFilter/examples/basicFilter/basicFilter.pde)
 
