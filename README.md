@@ -1,13 +1,17 @@
 # Signal Filter (beta)
 
+A [Processing](http://processing.org/) API for signal filtering by [Raphaël de Courville](https://vimeo.com/sableraf/) ([@sableRaph](https://twitter.com/sableRaph)).
+
+We often have to deal with data from noisy sources like blob tracking or raw sensors. Signal Filter provides a convenient way to smooth the noise from those sources with easy to tweak parameters to accomodate various types of signals.
+
+Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). It uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/) from [Université de Toulouse](http://www.univ-toulouse.fr/).
+
 *Note: Signal Filter is considered beta and should not be used for production. Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
-
-A [Processing](http://processing.org/) API for signal filtering by [Raphaël de Courville](https://vimeo.com/sableraf/) ([@sableRaph](https://twitter.com/sableRaph)). 
-
-Based on the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). This library uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/) from [Université de Toulouse](http://www.univ-toulouse.fr/).
 
 
 ## About
+
+The library provides different functions to deal with the most common scenarios: single signal, coordinates (as PVector of floats), multiple channels. Look at the examples and the documentation for more information.
 
 To learn more about the filtering algorithm behind Signal Filter, read the [CHI 2012 paper (PDF)](http://www.lifl.fr/~casiez/publications/CHI2012-casiez.pdf) by [Géry Casiez](http://www.lifl.fr/~casiez). 
 
