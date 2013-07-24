@@ -8,7 +8,7 @@ name = Signal Filter
 authorList = [Raphael de Courville](https://vimeo.com/sableraf/)
 
 # A web page for your library, NOT a direct link to where to download it.
-url = https://github.com/SableRaf/signalFilter
+url = https://github.com/SableRaf/signalfilter
 
 # The category of your library, must be one (or many) of the following:
 #   "3D"            "Animation"     "Compilations"      "Data"          

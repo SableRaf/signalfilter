@@ -60,7 +60,7 @@ void draw()
   // Draw a small ellipse at noisy position
   noStroke();
   fill(100);
-  ellipse(noiseX, noiseY, 5, 5);
+  ellipse(noiseX, noiseY, 15, 15);
     
   // -------------------------------------------------------------------------
   // Filter the coordinate values 
