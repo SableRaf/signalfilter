@@ -38,16 +38,12 @@ Unzip and put the extracted *SignalFilter* folder into the libraries folder of y
 
 ## Tested
 
-System:
-
-* OSX 
+Systems: OSX 
 
 *Signal Filter should theoretically work on every platform. 
 If you try it on Windows or Linux, please let me know using the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
-Processing Version:
-
-* 2.0
+Processing Version: 2.0
 
 ## Dependencies
 
