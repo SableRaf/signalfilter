@@ -2,9 +2,8 @@
 
 *Note: Signal Filter is considered beta and should not be used for production. Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
-A [Processing](http://processing.org/) API for signal filtering based on the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). This library uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/) from [Université de Toulouse](http://www.univ-toulouse.fr/).
+A [Processing](http://processing.org/) API for signal filtering by [Raphaël de Courville](https://vimeo.com/sableraf/) ([@sableRaph](https://twitter.com/sableRaph)). based on the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). This library uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/) from [Université de Toulouse](http://www.univ-toulouse.fr/).
 
-Signal Filter by [Raphaël de Courville](https://vimeo.com/sableraf/) (Twitter: [@sableRaph](https://twitter.com/sableRaph)).
 
 ## About
 
@@ -43,7 +42,8 @@ System:
 
 * OSX 
 
-*Signal Filter should theoretically work on every platform. If you try it on Windows or Linux, please let me know using the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
+*Signal Filter should theoretically work on every platform. 
+If you try it on Windows or Linux, please let me know using the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
 Processing Version:
 
@@ -57,6 +57,6 @@ None.
 
 ## License
 
-* The library is Open Source Software released under the [GNU General Public License](https://raw.github.com/SableRaf/signalfilter/master/reference/LICENSE.txt). It's developed and maintained by [Raphaël de Courville](https://vimeo.com/sableraf/).
+* The library is Open Source Software released under the [GNU General Public License](http://www.gnu.org/licenses/gpl.html). It's developed and maintained by [Raphaël de Courville](https://vimeo.com/sableraf/).
 
 *This README file was last updated on 2013-07-24 by Raphaël de Courville.*
