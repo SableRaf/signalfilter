@@ -33,7 +33,7 @@ Unzip and put the extracted *SignalFilter* folder into the libraries folder of y
 
 * [coordFilter](https://github.com/SableRaf/signalfilter/tree/master/SignalFilter/examples/coordFilter/coordFilter.pde)
 
-![Snapshots](https://raw.github.com/SableRaf/signalfilter/master/ressources/filterCoord.jpg)
+![Snapshots](https://raw.github.com/SableRaf/signalfilter/master/ressources/coordFilter.jpg)
 
 
 
