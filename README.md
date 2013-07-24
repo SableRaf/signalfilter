@@ -1,8 +1,6 @@
 # Signal Filter (beta)
 
-A [Processing](http://processing.org/) API for noisy signal filtering.
-
-Signal Filter provides a convenient way to get rid of the noise in raw signals (like blob tracking coordinates for example) with only two, easy to tweak, parameters.
+Signal Filter is a [Processing](http://processing.org/) library for noisy signal filtering. It provides a convenient way to get rid of the noise in raw signals (like blob tracking coordinates for example).
 
 Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). It uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/).
 
