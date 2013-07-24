@@ -2,7 +2,9 @@
 
 *Note: Signal Filter is considered beta and should not be used for production. Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
-A [Processing](http://processing.org/) API for signal filtering by [Raphaël de Courville](https://vimeo.com/sableraf/) ([@sableRaph](https://twitter.com/sableRaph)). based on the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). This library uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/) from [Université de Toulouse](http://www.univ-toulouse.fr/).
+A [Processing](http://processing.org/) API for signal filtering by [Raphaël de Courville](https://vimeo.com/sableraf/) ([@sableRaph](https://twitter.com/sableRaph)). 
+
+Based on the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). This library uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/) from [Université de Toulouse](http://www.univ-toulouse.fr/).
 
 
 ## About
