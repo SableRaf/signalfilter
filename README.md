@@ -4,7 +4,7 @@ Signal Filter is a [Processing](http://processing.org/) library for noisy signal
 
 Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). It uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/).
 
-*Note: Signal Filter is considered beta and should not be used for production. Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
+*Note: Signal Filter is considered beta and should not be used for production. The API is not final (some features and function names may change slightly). Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
 
 ## About
