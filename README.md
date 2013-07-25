@@ -11,7 +11,7 @@ Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro
 
 “The 1€ ﬁlter (“one Euro ﬁlter”) is a simple algorithm to ﬁlter noisy signals for high precision and responsiveness. It uses a ﬁrst order low-pass ﬁlter with an adaptive cutoff frequency: at low speeds, a low cutoff stabilizes the signal by reducing jitter, but as speed increases, the cutoff is increased to reduce lag.” [Casiez 2012]
 
-The library provides different functions to deal with the most common scenarios: single signal, coordinates (as PVector of floats), multiple channels. Look at the examples and the documentation for more information.
+The library provides different functions to deal with the most common scenarios: single signal, coordinates (as PVector or individual floats), multiple channels. Look at the examples and the documentation for more information.
 
 To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](http://www.lifl.fr/~casiez/publications/CHI2012-casiez.pdf) by [Géry Casiez](http://www.lifl.fr/~casiez). 
 
@@ -27,7 +27,7 @@ Unzip and put the extracted *SignalFilter* folder into the libraries folder of y
 
 ## Usage
 
-Import the library, create your filter, and apply it to your signal. Easy! Optionnally, you can get more control over the parameters. Looks at the examples for instructions.
+Import the library, create your filter, and apply it to your signal. Easy! Optionnally, you can get more control over the parameters (recommended). Look at the examples for instructions.
 
 ```java
 
