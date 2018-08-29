@@ -11,11 +11,11 @@ Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro
 
 “The 1€ ﬁlter (“one Euro ﬁlter”) is a simple algorithm to ﬁlter noisy signals for high precision and responsiveness. It uses a ﬁrst order low-pass ﬁlter with an adaptive cutoff frequency: at low speeds, a low cutoff stabilizes the signal by reducing jitter, but as speed increases, the cutoff is increased to reduce lag.” [Casiez 2012]
 
-The library provides different functions to deal with the most common scenarios: single signal, coordinates (as PVector or individual floats), multiple channels. Look at the examples and the documentation for more information.
+This library provides convenience functions to deal with the most common scenarios: single signal, coordinates (as PVector or individual floats), multiple channels. Look at the examples and the documentation for more information.
 
-To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](http://www.lifl.fr/~casiez/publications/CHI2012-casiez.pdf) by [Géry Casiez](http://www.lifl.fr/~casiez). 
+To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](http://www.lifl.fr/~casiez/publications/CHI2012-casiez.pdf) by [Géry Casiez](http://www.lifl.fr/~casiez).
 
-You can also try the [online version](http://oin.name/1eurofilter/) of the 1€ filter by [Jonathan Aceituno](http://p.oin.name/).
+You can also try the [online demo](http://cristal.univ-lille.fr/~casiez/1euro/OneEuroFilter.java) of the 1€ filter for a comparison with other filters.
 
 ## Download
 
@@ -46,12 +46,12 @@ float noisySignal;
 float filteredSignal;
 
 void setup() {
-  
+
   // -----------------------------------------------------
   // Initialize the filter
      myFilter = new SignalFilter(this);
   // -----------------------------------------------------
-  
+
 }
 
 void draw()
@@ -59,21 +59,21 @@ void draw()
 
   // Generate a dummy signal
   sourceSignal = sin(frameCount / 1000.0);
-  
+
   // Add random noise to our dummy signal
   noisySignal = sourceSignal + random(-0.05, 0.05);
-  
+
   // -----------------------------------------------------
   // Filter the signal
      filteredSignal = myFilter.filterUnitFloat( noisySignal );
   // -----------------------------------------------------
-  
+
   // Display the results in the console
   println("");
   println("Source   = " + sourceSignal);
   println("Noisy    = " + noisySignal);
   println("Filtered = " + filteredSignal);
-  
+
 }
 
 ```
@@ -99,15 +99,16 @@ void draw()
 
 ## Tested
 
-System: 
+System:
 
-* OSX 
+* OSX
 * Windows
 
-*Signal Filter should theoretically work on Linux too, if you try it, please let me know.*
+*Signal Filter should work on Linux too, if you try it, please let me know.*
 
-Processing Version: 
+Processing Version:
 
+* 3.4
 * 2.0.1
 * 2.0
 * 2.0b9
@@ -120,6 +121,10 @@ Processing Version:
 
 None.
 
+## To Do
+
+* Enable usage [outside of the draw() loop](https://github.com/SableRaf/signalfilter/issues/2)
+
 
 ## Questions?
 
@@ -130,4 +135,4 @@ Wanna chat? Ping me on [Twitter](https://twitter.com/sableRaph). For bug reports
 
 * The library is Open Source Software released under the [GNU General Public License](http://www.gnu.org/licenses/gpl.html). It is developed and maintained by [Raphaël de Courville](https://vimeo.com/sableraf/).
 
-*This README file was last updated on 2013-07-24 by Raphaël de Courville.*
+*This README file was last updated on 2018-08-29 by Raphaël de Courville.*
