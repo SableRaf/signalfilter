@@ -15,7 +15,7 @@ This library provides convenience functions to deal with the most common scenari
 
 To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](http://www.lifl.fr/~casiez/publications/CHI2012-casiez.pdf) by [Géry Casiez](http://www.lifl.fr/~casiez).
 
-You can also try the [online demo](http://cristal.univ-lille.fr/~casiez/1euro/OneEuroFilter.java) of the 1€ filter for a comparison with other filters.
+You can also try the [online demo](http://cristal.univ-lille.fr/~casiez/1euro/InteractiveDemo/) of the 1€ filter for a comparison with other filters.
 
 ## Download
 
