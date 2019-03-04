@@ -1,10 +1,10 @@
-# Signal Filter (beta)
+# Signal Filter
 
 Signal Filter is a [Processing](http://processing.org/) library for noisy signal filtering. It provides a convenient way to get rid of the noise in raw signals (like blob tracking coordinates for example).
 
 Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). It uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/).
 
-*Note: Signal Filter is considered beta and should not be used for production. The API is not final (some features and function names may change slightly). Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
+*Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
 
 ## About
@@ -99,15 +99,9 @@ void draw()
 
 ## Tested
 
-System:
+Processing Versions:
 
-* OSX
-* Windows
-
-*Signal Filter should work on Linux too, if you try it, please let me know.*
-
-Processing Version:
-
+* 3.5.3
 * 3.4
 * 2.0.1
 * 2.0
@@ -133,6 +127,6 @@ Wanna chat? Ping me on [Twitter](https://twitter.com/sableRaph). For bug reports
 
 ## License
 
-* The library is Open Source Software released under the [GNU General Public License](http://www.gnu.org/licenses/gpl.html). It is developed and maintained by [Raphaël de Courville](https://vimeo.com/sableraf/).
+* The library is Open Source Software released under the [GNU General Public License](http://www.gnu.org/licenses/gpl.html). It is developed and maintained by [Raphaël de Courville](https://twitter.com/sableRaph).
 
-*This README file was last updated on 2018-08-29 by Raphaël de Courville.*
+*This README file was last updated on 2019-03-04*
