@@ -2,7 +2,7 @@
 
 The Signal Filter [Processing](http://processing.org/) library is a simple way to turn noisy raw data–such as a tracker's position or your microphone volume for example–into a signal that changes smoothly over time.
 
-Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez) which is a lightweight alternative to common filtering algorithms. Signal Filter wraps the Java implementation by [Stéphane Conversy](http://recherche.enac.fr/~conversy/).
+Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez) which is a lightweight alternative to common filtering algorithms. Signal Filter wraps the Java implementation of the 1€ filter by [Stéphane Conversy](http://recherche.enac.fr/~conversy/).
 
 *Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
