@@ -1,8 +1,8 @@
 # Signal Filter
 
-Signal Filter is a [Processing](http://processing.org/) library for noisy signal filtering. It provides a convenient way to get rid of the noise in raw signals (like blob tracking coordinates for example).
+The Signal Filter [Processing](http://processing.org/) library is a simple way to turn noisy raw data–such as a tracker's position or your microphone volume for example–into a signal that changes smoothly over time.
 
-Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez). It uses the Java implementation by [Stéphane Conversy](http://lii-enac.fr/~conversy/).
+Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez) which is a lightweight alternative to common filtering algorithms. Signal Filter wraps the Java implementation by [Stéphane Conversy](http://recherche.enac.fr/~conversy/).
 
 *Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
@@ -13,7 +13,7 @@ Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro
 
 This library provides convenience functions to deal with the most common scenarios: single signal, coordinates (as PVector or individual floats), multiple channels. Look at the examples and the documentation for more information.
 
-To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](http://www.lifl.fr/~casiez/publications/CHI2012-casiez.pdf) by [Géry Casiez](http://www.lifl.fr/~casiez).
+To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](https://hal.inria.fr/hal-00670496/document) by [Géry Casiez](http://www.lifl.fr/~casiez).
 
 You can also try the [online demo](http://cristal.univ-lille.fr/~casiez/1euro/InteractiveDemo/) of the 1€ filter for a comparison with other filters.
 
@@ -27,7 +27,7 @@ Unzip and put the extracted *SignalFilter* folder into the libraries folder of y
 
 ## Usage
 
-Import the library, create your filter, and apply it to your signal. Easy! Optionnally, you can get more control over the parameters (recommended). Look at the examples for instructions.
+Import the library, create your filter, and apply it to your signal. You can get more control over the parameters (look at comments in the examples for instructions).
 
 ```java
 
@@ -117,8 +117,7 @@ None.
 
 ## To Do
 
-* Enable usage [outside of the draw() loop](https://github.com/SableRaf/signalfilter/issues/2)
-
+None.
 
 ## Questions?
 
@@ -129,4 +128,4 @@ Wanna chat? Ping me on [Twitter](https://twitter.com/sableRaph). For bug reports
 
 * The library is Open Source Software released under the [GNU General Public License](http://www.gnu.org/licenses/gpl.html). It is developed and maintained by [Raphaël de Courville](https://twitter.com/sableRaph).
 
-*This README file was last updated on 2019-03-04*
+*This README file was last updated on 2020-11-26*
