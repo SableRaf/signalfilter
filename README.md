@@ -17,13 +17,10 @@ To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](h
 
 You can also try the [online demo](http://cristal.univ-lille.fr/~casiez/1euro/InteractiveDemo/) of the 1€ filter for a comparison with other filters.
 
-## Download
 
-* [SignalFilter.zip](http://s176381904.onlinehome.fr/processing/SignalFilter/download/SignalFilter.zip)
+## Installation (PDE)
 
-## Installation
-
-Unzip and put the extracted *SignalFilter* folder into the libraries folder of your Processing sketch folder. Reference and examples are included in the *SignalFilter* folder.
+To install the Signal Filter library in the Processing Development Environment, go to `tools > Manage Tools...` and find the `Libraries` tab. Search for "Signal Filter" and click `install`.
 
 ## Usage
 
@@ -81,6 +78,8 @@ void draw()
 
 ## Examples
 
+After installing the Signal Filter library, you will find the following examples in `File > Examples... > Contributed Libraries > Signal Filter`
+
 * [helloFilter](https://github.com/SableRaf/signalfilter/tree/master/SignalFilter/examples/helloFilter/helloFilter.pde)
 
 * [basicFilter](https://github.com/SableRaf/signalfilter/tree/master/SignalFilter/examples/basicFilter/basicFilter.pde)
@@ -101,6 +100,7 @@ void draw()
 
 Processing Versions:
 
+* 4.0.1
 * 3.5.3
 * 3.4
 * 2.0.1
