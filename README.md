@@ -115,10 +115,6 @@ Processing Versions:
 
 None.
 
-## To Do
-
-None.
-
 ## Questions?
 
 Wanna chat? Ping me on [Twitter](https://twitter.com/sableRaph). For bug reports, please use the [issues](https://github.com/SableRaf/SignalFilter/issues) page.
