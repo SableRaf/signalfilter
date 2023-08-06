@@ -56,4 +56,9 @@ class LowPassFilter {
    public double lastRawValue() {
        return y;
    }
+
+   public double lastFilteredValue() {
+       return s;
+   }
+   
 }
