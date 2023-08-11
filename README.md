@@ -2,7 +2,7 @@
 
 The Signal Filter [Processing](http://processing.org/) library is a simple way to turn noisy raw data–such as a tracker's position or your microphone volume for example–into a signal that changes smoothly over time.
 
-Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro/) by [Géry Casiez](http://www.lifl.fr/~casiez) which is a lightweight alternative to common filtering algorithms. Signal Filter wraps the Java implementation of the 1€ filter by [Stéphane Conversy](http://recherche.enac.fr/~conversy/).
+Signal Filter is built upon the [OneEuroFilter](https://gery.casiez.net/1euro/) by [Géry Casiez](https://gery.casiez.net) which is a lightweight alternative to common filtering algorithms. Signal Filter wraps the Java implementation of the 1€ filter by [Stéphane Conversy](http://recherche.enac.fr/~conversy/).
 
 *Please report bugs and submit feature requests on the [issues](https://github.com/SableRaf/SignalFilter/issues) page.*
 
@@ -13,9 +13,9 @@ Signal Filter is built upon the [OneEuroFilter](http://www.lifl.fr/~casiez/1euro
 
 This library provides convenience functions to deal with the most common scenarios: single signal, coordinates (as PVector or individual floats), multiple channels. Look at the examples and the documentation for more information.
 
-To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](https://hal.inria.fr/hal-00670496/document) by [Géry Casiez](http://www.lifl.fr/~casiez).
+To learn more about the 1€ Filter algorithm, read the [CHI 2012 paper (PDF)](https://hal.inria.fr/hal-00670496/document) by [Géry Casiez](https://gery.casiez.net).
 
-You can also try the [online demo](http://cristal.univ-lille.fr/~casiez/1euro/InteractiveDemo/) of the 1€ filter for a comparison with other filters.
+You can also try the [online demo](https://gery.casiez.net/1euro/InteractiveDemo/) of the 1€ filter for a comparison with other filters.
 
 
 ## Installation (PDE)
